@@ -1,3 +1,28 @@
 body {
-  font-family: "Fasthand", cursive;
+  background-color: #fff;
+  font-family: "roboto", "Raleway", sans-serif;
+  color: black;
+}
+
+.link_cancel {
+  text-decoration: none;
+}
+
+.first_logo {
+  color: var(--iris, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.second_logo {
+  color: var(--navyblue, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
