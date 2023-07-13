@@ -41,6 +41,7 @@ body {
   color: var(--first-site);
   text-decoration: none;
 }
+/* #404bbf */
 
 .first_site:hover {
   color: #404bbf;
