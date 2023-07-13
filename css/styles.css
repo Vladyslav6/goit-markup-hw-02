@@ -6,6 +6,7 @@
   --section-one: #2e2f42;
   --secti-two: #2e2f42;
   --paragtwo: #434455;
+  --sectithree: #2e2f42;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -108,4 +109,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--paragtwo);
+}
+/* section_two_clouse */
+.whatare {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--sectithree);
 }
