@@ -2,6 +2,7 @@
   --background-color: #ffffff;
   --iris: #4d5ae5;
   --first-site: #2e2f42;
+  --adress-var: #434455;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -49,8 +50,18 @@ body {
 .first_site:focus {
   color: #404bbf;
 }
-.adres_cl {
+.adress {
   font-style: normal;
 }
 .adres_link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(adress-var);
+  text-decoration: none;
+}
+.adres_link:hover {
+  color: #404bbf;
+}
+.adres_link:focus {
+  color: #404bbf;
 }
