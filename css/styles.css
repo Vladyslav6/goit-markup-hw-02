@@ -42,6 +42,9 @@ body {
   text-decoration: none;
 }
 
-.link:hover {
+.first_site:hover {
+  color: #404bbf;
+}
+.first_site:focus {
   color: #404bbf;
 }
