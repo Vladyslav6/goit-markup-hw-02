@@ -7,6 +7,7 @@
   --secti-two: #2e2f42;
   --paragtwo: #434455;
   --sectithree: #2e2f42;
+  --footercol: #2e2f42;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -120,4 +121,17 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--sectithree);
+}
+/* clousethreesecti */
+.foot {
+  background-color: var(--footercol);
+}
+.seclog {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
