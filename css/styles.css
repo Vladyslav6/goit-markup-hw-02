@@ -3,6 +3,7 @@
   --iris: #4d5ae5;
   --first-site: #2e2f42;
   --adress-var: #434455;
+  --section-one: #2e2f42;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -13,7 +14,7 @@ body {
 .link {
   text-decoration: none;
 }
-
+/* Header */
 .first_logo {
   color: var(--iris);
   font-family: "Raleway", sans-serif;
@@ -64,4 +65,32 @@ body {
 }
 .adres_link:focus {
   color: #404bbf;
+}
+/* Header_clouse */
+
+.section_one {
+  background-color: var(--section-one);
+}
+.first_header {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.first_button {
+  background-color: #4d5ae5;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.first_button:hover {
+  background-color: #404bbf;
+}
+.first_button:focus {
+  background-color: #404bbf;
 }
