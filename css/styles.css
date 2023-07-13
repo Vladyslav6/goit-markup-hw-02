@@ -127,7 +127,11 @@ body {
 .secour {
   background-color: #f4f4fd;
 }
+.photo {
+  background-color: #ffffff;
+}
 
+/* footer */
 .foot {
   background-color: var(--footercol);
 }
