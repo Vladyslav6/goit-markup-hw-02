@@ -42,9 +42,9 @@ body {
   text-decoration: none;
 }
 
-.first_site:hover {
+/* .first_site:hover {
   color: #404bbf;
-}
+} */
 .first_site:focus {
   color: #404bbf;
 }
