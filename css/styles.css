@@ -4,6 +4,8 @@
   --first-site: #2e2f42;
   --adress-var: #434455;
   --section-one: #2e2f42;
+  --secti-two: #2e2f42;
+  --paragtwo: #434455;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -93,4 +95,17 @@ body {
 }
 .first_button:focus {
   background-color: #404bbf;
+}
+.headsecti {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secti-two);
+}
+.parsectitwo {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--paragtwo);
 }
