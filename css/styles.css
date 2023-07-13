@@ -10,6 +10,8 @@
   --footercol: #2e2f42;
   --colorteam: #2e2f42;
   --footerpar: #f4f4fd;
+  --buttonport: #4d5ae5;
+  --bgroundport: #f4f4fd;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -149,4 +151,24 @@ body {
   line-height: 1.5;
   color: var(--footerpar);
   letter-spacing: 0.02em;
+}
+
+/* portfolio */
+.butport {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--buttonport);
+  background-color: var(--bgroundport);
+  cursor: pointer;
+}
+.butport:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.butport:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
