@@ -1,10 +1,8 @@
 body {
-  background-color: #fff;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Roboto', sans-serif;
-  color: black;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
 }
-
 
 .link_cancel {
   text-decoration: none;
