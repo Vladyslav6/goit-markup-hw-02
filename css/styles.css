@@ -71,7 +71,7 @@ body {
 }
 /* Header_clouse */
 
-.secti {
+.sect {
   background-color: var(--section-one);
 }
 .first_header {
@@ -111,6 +111,8 @@ body {
   color: var(--paragtwo);
 }
 /* section_two_clouse */
+.secthree {
+}
 .whatare {
   font-size: 36px;
   line-height: 1.11;
