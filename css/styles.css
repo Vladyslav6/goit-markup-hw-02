@@ -1,3 +1,6 @@
+:root {
+  -moz-background-clip: var(--#fff);
+}
 body {
   font-family: "Raleway", sans-serif;
 
