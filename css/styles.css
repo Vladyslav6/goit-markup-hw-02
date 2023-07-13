@@ -9,6 +9,7 @@
   --sectithree: #2e2f42;
   --footercol: #2e2f42;
   --colorteam: #2e2f42;
+  --footerpar: #f4f4fd;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -143,4 +144,9 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.parfooter {
+  line-height: 1.5;
+  color: var(--footerpar);
+  letter-spacing: 0.02em;
 }
