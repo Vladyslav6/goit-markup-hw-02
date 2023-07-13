@@ -8,6 +8,7 @@
   --paragtwo: #434455;
   --sectithree: #2e2f42;
   --footercol: #2e2f42;
+  --colorteam: #2e2f42;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -123,6 +124,17 @@ body {
   color: var(--sectithree);
 }
 /* clousethreesecti */
+.secfour {
+  background-color: #f4f4fd;
+}
+.team {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--colorteam);
+}
 .foot {
   background-color: var(--footercol);
 }
